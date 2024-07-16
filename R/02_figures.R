@@ -1,11 +1,9 @@
-#' @import ggplot2
-
-#' frequency_Nglycan_components()
+#' freq_ontologies()
 #' @description This function will read one or more Nglycan_lists and generate frequency plots for the N-Glycan components
 #' @param X can be either a character vector containing Nglycan names OR a list of multiple character vectors, the name of the list components will be use to generate the legend
 #' @param type can be either <composition>,<class>,or <both> to indicate the type of ontology terms to be considered in the figure
 #' @return a barplot showing the ontology of the selected
-#' @author Dusan Velickovic, Geremy Clair
+#' @author Geremy Clair
 #' @export
 freq_ontologies<-function(X,type=c("composition","class","both")){
 if(missing(type)){type<-"both"}
