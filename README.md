@@ -8,7 +8,7 @@ To install the package in R please first make sure devtools is installed
 When devtools is installed, run the following command to install RomicsProcessor and its dependencies
 > devtools::install_github("GeremyClair/NglycanMiniOn")
 
-Alternately, download the [built package](https://pages.github.com/) and install the package manually.
+Alternately, download the [built package]([https://pages.github.com/](https://github.com/GeremyClair/NglycanMiniOn/blob/main/NGlycanMiniOn_0.1.0.tar.gz) and install the package manually.
 
 ## Contacts
 Written by Geremy Clair for the Department of Energy (PNNL, Richland, WA) \
