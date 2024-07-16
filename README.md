@@ -2,6 +2,14 @@
 
 NGlycanMiniOn is an R package used to create ontology bins and perform N_glycan enrichment analysis.
 
+## Installation
+To install the package in R please first make sure devtools is installed
+> install.packages("devtools")
+
+When devtools is installed, run the following command to install RomicsProcessor and its dependencies
+> devtools::install_github("PNNL-Comp-Mass-Spec/RomicsProcessor")
+
+Alternately, download the built package and install the package manually.
 
 ## Contacts
 
