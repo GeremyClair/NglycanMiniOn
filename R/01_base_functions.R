@@ -1,7 +1,5 @@
 #' Nglycan_db
-#'
 #' This character vector contains the list of all the Nglycans currently present in Metaspace (as of 07/12/24).
-#'
 #' @format A character
 #'
 "Nglycan_db"
@@ -259,6 +257,151 @@ Nglycan_EASE<-function(query, universe){
   return(EASE_results)
 }
 
+#' Nglycan_hypergeometric()
+#' @description Allows to perform an hypergeometric test for N-glycan lists (query vs universe), by default the universe is the list of all observed N-glycans in Metaspace
+#' @param query should be a character vector containing N-Glycans names, the N-glycans in this list have to be present in the universe list
+#' @param universe should be a character vector containing N-Glycans names
+#' @return a data.frame containing enrichment results.
+#' @author Geremy Clair
+#' @export
+Nglycan_hypergeometric<-function(query, universe){
+  if (!is.character(query)){stop("The 'query' has to be a character vector.")}
+  if (missing(universe)){warning("The 'universe' was missing, the Nglycan_db was used as universe.")
+    universe<-Nglycan_db}
+  if (!is.character(universe)){stop("The 'universe' has to be a character vector.")}
+  if (sum(query %in% universe)<length(query)){
+    warning("All the elements of the 'query' need to be part of the 'universe', if you are using the default universe, it is possible that one or more of your Nglycans are not currently part of the Nglycan_db.")
+    warning("the Nglycans not present in the universe were added to it")
+    universe<-c(universe,query[!query %in% universe])
+  }
+
+  print(paste0("Your 'query' contains ",length(query)," Nglycans."))
+  print(paste0("Your 'universe' contains ",length(universe)," Nglycans."))
+
+  if(sum(duplicated(query)>0)){
+    warning(paste0("Your 'query' contained ", sum(duplicated(query)), " duplicated Nglycan name(s)."))
+    warning(paste0(sum(duplicated(query)), " duplicated name was removed from the query."))
+    print(query[duplicated(query)])
+    query<-query[!duplicated(query)]
+    print(paste0("Your 'query' now contains ",length(query)," Nglycans."))
+  }
+
+  o<-NGlycan_ontologies(universe)
+  o_query<-o[o$Nglycan_name %in% query,]
+  unique_terms<-unique(o_query$Ontology_term)
+
+
+#create contingency matrixes
+contingency.matrix<- list()
+for (i in 1:length(unique_terms))
+{
+  contingency.matrix[[i]]<- matrix(NA,ncol=2,nrow=2)
+  contingency.matrix[[i]][1,1]<- sum(o_query$Ontology_term==unique_terms[i])
+  contingency.matrix[[i]][1,2]<- sum(o$Ontology_term==unique_terms[i])
+  contingency.matrix[[i]][2,1]<- length(query)-contingency.matrix[[i]][1,1]
+  contingency.matrix[[i]][2,2]<- length(universe)-contingency.matrix[[i]][1,2]
+  names(contingency.matrix)[i]<-unique_terms[i]
+  }
+
+
+hyper_results<-data.frame(matrix(NA, nrow=length(unique_o), ncol=12))
+colnames(hyper_results)<- c("Term_description","Count_query","Pop_query","Count_universe","Pop_universe","%_query","%_universe","Test_p","Test_padj","fold_change","Nglycan_in_query","-log10(p)")
+
+hyper_results$Term_description <- unique_o
+
+hyper_results$Pop_query<- length(query)
+hyper_results$Pop_universe<- length(universe)
+
+for (i in 1:length(unique_o))
+{
+  test<- min(1-cumsum(dhyper(0:(contingency.matrix[[i]][1,1]-1),contingency.matrix[[i]][1,2],contingency.matrix[[i]][2,2],contingency.matrix[[i]][2,1])))
+  hyper_results$Test_p[i]<-test
+  hyper_results$Count_query[i]<- contingency.matrix[[i]][1,1]
+  hyper_results$Count_universe [i]<- contingency.matrix[[i]][1,2]
+  hyper_results$`%_query`[i]<- contingency.matrix[[i]][1,1]/length(query)*100
+  hyper_results$`%_universe`[i]<- contingency.matrix[[i]][1,2]/length(universe)*100
+  hyper_results$fold_change [i]<- hyper_results$`%_query`[i]/hyper_results$`%_universe`[i]
+  hyper_results$Nglycan_in_query[i]<-paste(o_query$Nglycan_name[o_query$Ontology_term==unique_o[i]],collapse=";")
+}
+hyper_results$Test_padj<-p.adjust(hyper_results$Test_p,method = "BH",n = nrow(hyper_results))
+hyper_results$`-log10(p)`<- (-1*log(hyper_results$Test_p,10))
+hyper_results$Test_p[is.na(hyper_results$Test_p)|hyper_results$Test_p==TRUE|hyper_results$Test_p>1]<-1
+
+return(hyper_results)
+}
+
+#' Nglycan_binomial()
+#' @description Allows to perform a binomial test for N-glycan lists (query vs universe), by default the universe is the list of all observed N-glycans in Metaspace
+#' @param query should be a character vector containing N-Glycans names, the N-glycans in this list have to be present in the universe list
+#' @param universe should be a character vector containing N-Glycans names
+#' @return a data.frame containing enrichment results.
+#' @author Geremy Clair
+#' @export
+Nglycan_binomial<-function(query, universe){
+  if (!is.character(query)){stop("The 'query' has to be a character vector.")}
+  if (missing(universe)){warning("The 'universe' was missing, the Nglycan_db was used as universe.")
+    universe<-Nglycan_db}
+  if (!is.character(universe)){stop("The 'universe' has to be a character vector.")}
+  if (sum(query %in% universe)<length(query)){
+    warning("All the elements of the 'query' need to be part of the 'universe', if you are using the default universe, it is possible that one or more of your Nglycans are not currently part of the Nglycan_db.")
+    warning("the Nglycans not present in the universe were added to it")
+    universe<-c(universe,query[!query %in% universe])
+  }
+
+  print(paste0("Your 'query' contains ",length(query)," Nglycans."))
+  print(paste0("Your 'universe' contains ",length(universe)," Nglycans."))
+
+  if(sum(duplicated(query)>0)){
+    warning(paste0("Your 'query' contained ", sum(duplicated(query)), " duplicated Nglycan name(s)."))
+    warning(paste0(sum(duplicated(query)), " duplicated name was removed from the query."))
+    print(query[duplicated(query)])
+    query<-query[!duplicated(query)]
+    print(paste0("Your 'query' now contains ",length(query)," Nglycans."))
+  }
+
+  o<-NGlycan_ontologies(universe)
+  o_query<-o[o$Nglycan_name %in% query,]
+  unique_terms<-unique(o_query$Ontology_term)
+
+  #create contingency matrixes
+  contingency.matrix<- list()
+  for (i in 1:length(unique_terms))
+  {
+    contingency.matrix[[i]]<- matrix(NA,ncol=2,nrow=2)
+    contingency.matrix[[i]][1,1]<- sum(o_query$Ontology_term==unique_terms[i])
+    contingency.matrix[[i]][1,2]<- sum(o$Ontology_term==unique_terms[i])
+    contingency.matrix[[i]][2,1]<- length(query)-contingency.matrix[[i]][1,1]
+    contingency.matrix[[i]][2,2]<- length(universe)-contingency.matrix[[i]][1,2]
+    names(contingency.matrix)[i]<-unique_terms[i]
+  }
+
+  binomial_results<-data.frame(matrix(NA, nrow=length(unique_o), ncol=12))
+  colnames(binomial_results)<- c("Term_description","Count_query","Pop_query","Count_universe","Pop_universe","%_query","%_universe","Test_p","Test_padj","fold_change","Nglycan_in_query","-log10(p)")
+
+  binomial_results$Term_description <- unique_o
+
+  binomial_results$Pop_query<- length(query)
+  binomial_results$Pop_universe<- length(universe)
+
+  for (i in 1:length(unique_o)){
+    test<-binom.test(contingency.matrix[[i]][1,1],length(query),p = contingency.matrix[[i]][1,2]/length(universe))
+    binomial_results$Test_p[i]<-test$p.value
+    binomial_results$`%_query`[i]<- contingency.matrix[[i]][1,1]/length(query)*100
+    binomial_results$`%_universe`[i]<- contingency.matrix[[i]][1,2]/length(universe)*100
+    binomial_results$Count_query[i]<- contingency.matrix[[i]][1,1]
+    binomial_results$Count_universe [i]<- contingency.matrix[[i]][1,2]
+    binomial_results$`%_query`[i]<- contingency.matrix[[i]][1,1]/length(query)*100
+    binomial_results$`%_universe`[i]<- contingency.matrix[[i]][1,2]/length(universe)*100
+    binomial_results$fold_change [i]<- binomial_results$`%_query`[i]/binomial_results$`%_universe`[i]
+    binomial_results$Nglycan_in_query[i]<-paste(o_query$Nglycan_name[o_query$Ontology_term==unique_o[i]],collapse=";")
+  }
+  binomial_results$Test_padj<-p.adjust(binomial_results$Test_p,method = "BH",n = nrow(binomial_results))
+  binomial_results$`-log10(p)`<- (-1*log(binomial_results$Test_p,10))
+  binomial_results$Test_p[is.na(binomial_results$Test_p)|binomial_results$Test_p==TRUE|binomial_results$Test_p>1]<-1
+
+  return(binomial_results)
+}
+
 #' Nglycan_KS()
 #' @description Allows to perform Nglycan Ontology enrichment using a Kolmogorov-Smirnov test, in this case, the "rank" of the Nglycan will be used to perform the enrichment the rank can be directly provided or derived from a list of pvalues or fold changes.
 #' @param rankingTable should be a two column data.frame containing the Nglycan names as first column and the ranking values as second column
@@ -325,4 +468,3 @@ Nglycan_KS<-function(rankingTable, order= "ascending"){
   final_table<-final_table[order(final_table$Test_p),]
   return(final_table)
 }
-

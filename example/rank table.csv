@@ -1,0 +1,609 @@
+ID,pvalue
+Hex:19 HexNAc:18 NeuAc:1,0.01069
+Hex:7 HexNAc:3 dHex:1,0.0109
+Hex:6 HexNAc:6 dHex:1 NeuAc:2 Su:1,0.011
+Hex:6 HexNAc:6 dHex:2 NeuAc:2,0.01108
+Hex:7 HexNAc:5 dHex:1 NeuAc:1,0.0112
+Hex:12 HexNAc:7,0.01121
+Hex:5 HexNAc:8,0.01136
+Hex:8 HexNAc:5 dHex:1 NeuAc:1,0.01147
+Hex:6 HexNAc:2 dHex:1,0.01149
+Hex:10 HexNAc:6 dHex:1,0.01157
+Hex:5 HexNAc:5 dHex:1 Kdn:2,0.0116
+Hex:7 HexNAc:6 dHex:2,0.01168
+Hex:5 HexNAc:4 dHex:2 NeuAc:1,0.01176
+Hex:12 HexNAc:12 dHex:1,0.01179
+Hex:3 HexNAc:5,0.01185
+Hex:3 HexNAc:3 dHex:2 Pent:1,0.01205
+Hex:5 HexNAc:5 NeuAc:2,0.01207
+Hex:15 HexNAc:2,0.0121
+Hex:5 HexNAc:3 dHex:1 NeuGc:1,0.01216
+Hex:6 HexNAc:6 dHex:1 NeuAc:2,0.01221
+Hex:5 HexNAc:4 NeuAc:4,0.01227
+Hex:6 HexNAc:5 NeuAc:3,0.01237
+Hex:6 HexNAc:6 dHex:2 NeuAc:3,0.01242
+Hex:6 HexNAc:5 dHex:1 NeuAc:2 NeuGc:1,0.01248
+Hex:4 HexNAc:4 dHex:4 Su:1,0.01252
+Hex:4 HexNAc:2 Ph:1,0.01251
+Hex:6 HexNAc:6 dHex:3 NeuAc:1,0.01263
+Hex:3 HexNAc:7 Su:1,0.01261
+Hex:7 HexNAc:6 dHex:1 NeuAc:3 Ac:1,0.01264
+Hex:7 HexNAc:6 NeuAc:5,0.01266
+Hex:5 HexNAc:5 dHex:1 NeuAc:1,0.01271
+Hex:3 HexNAc:2 dHex:2,0.01276
+Hex:6 HexNAc:5 dHex:1 Su:1 HexA:1,0.01278
+Hex:7 HexNAc:6 dHex:6,0.0128
+Hex:2 HexNAc:2 dHex:2,0.01281
+Hex:8 HexNAc:5 dHex:4,0.01284
+Hex:4 HexNAc:5,0.01286
+Hex:5 HexNAc:4 dHex:1 Pent:1 Me:2,0.01291
+Hex:3 HexNAc:6 dHex:2,0.01292
+Hex:5 HexNAc:6 dHex:2 NeuAc:1,0.01295
+Hex:3 HexNAc:2 Ph:1,0.01325
+Hex:5 HexNAc:6 dHex:2,0.01331
+Hex:6 HexNAc:7 dHex:2 NeuAc:1,0.01333
+Hex:6 HexNAc:5 dHex:1,0.01338
+Hex:4 HexNAc:7,0.01339
+Hex:6 HexNAc:3 Su:1,0.01342
+Hex:6 HexNAc:6,0.01346
+Hex:9 HexNAc:8 dHex:1 NeuAc:3 Ac:2,0.01347
+Hex:8 HexNAc:6,0.0135
+Hex:7 HexNAc:4 NeuAc:2,0.01354
+Hex:6 HexNAc:6 NeuAc:2,0.01356
+Hex:7 HexNAc:3 NeuAc:1 Ph:1,0.01381
+Hex:6 HexNAc:4 Pent:1 Me:3,0.01387
+Hex:5 HexNAc:4 NeuAc:3,0.01392
+Hex:7 HexNAc:6 NeuAc:2 Su:2,0.01398
+Hex:7 HexNAc:3 dHex:1 Su:1,0.01405
+Hex:7 HexNAc:6 dHex:1 NeuAc:4 Ac:5,0.01408
+Hex:7 HexNAc:4,0.01414
+Hex:3 HexNAc:2 dHex:1 Pent:1,0.01415
+Hex:6 HexNAc:6 NeuAc:1,0.12689
+Hex:6 HexNAc:6 dHex:2 NeuAc:1,0.01423
+Hex:3 HexNAc:2 Pent:1,0.01426
+Hex:6 HexNAc:6 dHex:1 NeuAc:3,0.01431
+Hex:3 HexNAc:3 dHex:1 Pent:2,0.01435
+Hex:3 HexNAc:3 Pent:1,0.0144
+Hex:7 HexNAc:6 dHex:1 Su:1,0.01443
+Hex:5 HexNAc:6 dHex:1 Pent:1 Me:1,0.01455
+Hex:5 HexNAc:4 dHex:1 Su:1,0.01463
+Hex:8 HexNAc:7 dHex:2,0.01465
+Hex:6 HexNAc:5 NeuAc:2,0.01469
+Hex:6 HexNAc:4 Me:3,0.1479
+Hex:9 HexNAc:8 dHex:1 NeuAc:4 Ac:1,0.01479
+Hex:4 HexNAc:3 dHex:1 Pent:1,0.01486
+Hex:4 HexNAc:7 dHex:1,0.01487
+Hex:7 HexNAc:5,0.01494
+Hex:5 HexNAc:7 dHex:2 NeuAc:1,0.01495
+Hex:14 HexNAc:2 Ph:1,0.01501
+Hex:10 HexNAc:9 dHex:1 NeuAc:2,0.01504
+Hex:5 HexNAc:2 dHex:1,0.01507
+Hex:6 HexNAc:5 dHex:2 NeuGc:2,0.01509
+Hex:6 HexNAc:5 NeuAc:2 NeuGc:2,0.01513
+Hex:8 HexNAc:7 dHex:1 NeuAc:5,0.01521
+Hex:5 HexNAc:4 dHex:1 NeuAc:2 Ac:1,0.01524
+Hex:5 HexNAc:4 Pent:1 Me:2,0.01529
+Hex:4 HexNAc:9 dHex:1,0.01546
+Hex:6 HexNAc:3 dHex:1 NeuAc:1 Su:1,0.01549
+Hex:7 HexNAc:7 dHex:2,0.01551
+Hex:5 HexNAc:6 dHex:1 NeuAc:3,0.11554
+Hex:7 HexNAc:6 NeuAc:1,0.01554
+Hex:5 HexNAc:4 NeuGc:3,0.01556
+Hex:5 HexNAc:4 NeuAc:1 Ac:1,0.01558
+Hex:4 HexNAc:9,0.01562
+Hex:3 HexNAc:4 NeuAc:1,0.01565
+Hex:8 HexNAc:7 dHex:2 NeuAc:4,0.01569
+Hex:8 HexNAc:6 dHex:1 Pent:1 Me:5,0.01572
+Hex:5 HexNAc:4 NeuAc:1 Ac:2,0.01573
+Hex:4 HexNAc:6 NeuAc:1 Su:1,0.01574
+Hex:9 HexNAc:4 dHex:3 NeuAc:2,0.01575
+Hex:3 HexNAc:6 dHex:2 Su:1,0.01576
+Hex:5 HexNAc:4 dHex:3 Pent:1,0.01583
+Hex:5 HexNAc:6,0.01584
+Hex:7 HexNAc:6 dHex:2 NeuAc:4,0.01587
+Hex:5 HexNAc:6 dHex:1 NeuAc:2,0.01588
+Hex:19 HexNAc:19 dHex:1 NeuAc:1,0.11589
+Hex:7 HexNAc:6 NeuAc:4,0.01589
+Hex:8 HexNAc:1,0.01593
+Hex:6 HexNAc:5 NeuAc:2 NeuGc:1,0.01594
+Hex:7 HexNAc:5 NeuAc:4,0.01596
+Hex:3 HexNAc:6 dHex:3,0.01597
+Hex:9 HexNAc:5 dHex:1,0.01598
+Hex:6 HexNAc:3 dHex:2 Pent:1,0.11602
+Hex:5 HexNAc:3 dHex:1 Su:2 HexA:1,0.01602
+Hex:4 HexNAc:3,0.01606
+Hex:7 HexNAc:4 dHex:1,0.01608
+Hex:7 HexNAc:6 dHex:1 NeuAc:3 Su:1,0.01609
+Hex:2 HexNAc:2,0.01617
+Hex:4 HexNAc:4 dHex:3 Su:1,0.01618
+Hex:7 HexNAc:6 NeuAc:3 Su:1,0.0162
+Hex:19 HexNAc:18,0.01621
+Hex:5 HexNAc:4 NeuAc:3 Ac:3,0.0163
+Hex:8 HexNAc:7 dHex:1 NeuAc:4 Ac:3,0.01632
+Hex:6 HexNAc:5 dHex:1 NeuAc:1,0.01634
+Hex:9 HexNAc:6 Pent:1 Me:6,0.01636
+Hex:8 HexNAc:7 dHex:1 NeuAc:3 Ac:3,0.01638
+Hex:3 HexNAc:4 dHex:2 Pent:1,0.01641
+Hex:8 HexNAc:6 NeuAc:3,0.01642
+Hex:8 HexNAc:6 dHex:5,0.01643
+Hex:4 HexNAc:5 NeuAc:1 Su:1,0.01654
+Hex:4 HexNAc:2,0.01663
+Hex:4 HexNAc:2 NeuAc:1,0.01677
+Hex:5 HexNAc:8 dHex:1,0.01678
+Hex:8 HexNAc:7 dHex:1 NeuAc:4 Ac:2,0.0168
+Hex:3 HexNAc:5 dHex:1 NeuAc:1,0.01683
+Hex:5 HexNAc:4 dHex:1 Pent:1,0.11684
+Hex:3 HexNAc:4 Pent:1,0.01684
+Hex:6 HexNAc:8,0.01686
+Hex:7 HexNAc:7 dHex:1 NeuAc:1 Su:3,0.01687
+Hex:3 HexNAc:4 dHex:1 Pent:1,0.11691
+Hex:8 HexNAc:7,0.01691
+Hex:6 HexNAc:5 dHex:1 NeuAc:4,0.01692
+Hex:7 HexNAc:6 dHex:1,0.01693
+Hex:6 HexNAc:7 dHex:2 NeuAc:3,0.01698
+Hex:7 HexNAc:3 dHex:1 NeuAc:1,0.017
+Hex:7 HexNAc:3 dHex:1 NeuAc:1 Ph:1,0.11706
+Hex:5 HexNAc:4 dHex:2 NeuAc:2,0.01706
+Hex:5 HexNAc:3 dHex:1 Su:1 HexA:1,0.01708
+Hex:6 HexNAc:5 dHex:1 NeuAc:2,0.0171
+Hex:7 HexNAc:8 dHex:1 NeuAc:2 Su:2,0.01712
+Hex:3 HexNAc:6 Su:2,0.01713
+Hex:3 HexNAc:3 dHex:3 Pent:1,0.01717
+Hex:12 HexNAc:2,0.01719
+Hex:6 HexNAc:5 NeuGc:2,0.11725
+Hex:4 HexNAc:4 Pent:1 Me:1,0.01725
+Hex:8 HexNAc:7 NeuAc:5,0.11727
+Hex:7 HexNAc:7 dHex:4 NeuAc:2,0.01727
+Hex:7 HexNAc:8 NeuAc:2 Su:2,0.01728
+Hex:8 HexNAc:6 NeuAc:1,0.01729
+Hex:6 HexNAc:5 NeuAc:5,0.0173
+Hex:13 HexNAc:12 dHex:5,0.01731
+Hex:6 HexNAc:1,0.01733
+Hex:4 HexNAc:4 dHex:1 NeuAc:1,0.01737
+Hex:6 HexNAc:3 dHex:1 Pent:1,0.01739
+Hex:2 HexNAc:2 dHex:1,0.01742
+Hex:6 HexNAc:5 dHex:1 NeuGc:3,0.11746
+Hex:6 HexNAc:5 NeuAc:1 Su:2,0.01746
+Hex:3 HexNAc:3 dHex:2 Pent:2,0.0175
+Hex:10 HexNAc:10 dHex:2,0.01756
+Hex:4 HexNAc:4 Su:1,0.01758
+Hex:4 HexNAc:2 dHex:1 Pent:1,0.01763
+Hex:5 HexNAc:4 NeuAc:2,0.01764
+Hex:7 HexNAc:6 dHex:1 NeuGc:4,0.01766
+Hex:3 HexNAc:6 Su:1,0.01769
+Hex:10 HexNAc:9 dHex:1 NeuAc:1,0.01772
+Hex:5 HexNAc:4 dHex:1 Su:2,0.01773
+Hex:9 HexNAc:5 dHex:4,0.11774
+Hex:3 HexNAc:3 Su:1,0.01774
+Hex:7 HexNAc:5 NeuAc:2,0.01775
+Hex:6 HexNAc:3 dHex:1 Su:1,0.01777
+Hex:5 HexNAc:4 NeuAc:2 Ac:4,0.01778
+Hex:10 HexNAc:6 dHex:1 NeuAc:1,0.01781
+Hex:6 HexNAc:5 dHex:1 NeuAc:3 Su:2,0.11783
+Hex:7 HexNAc:3 Ph:1,0.01783
+Hex:5 HexNAc:3 Pent:1,0.11784
+Hex:5 HexNAc:4 NeuAc:3 Ac:4,0.11784
+Hex:4 HexNAc:4 Pent:1,0.11784
+Hex:7 HexNAc:6 dHex:1 NeuAc:3 Ac:3,0.11784
+Hex:5 HexNAc:7 dHex:1 NeuAc:3,0.01784
+Hex:5 HexNAc:4 dHex:1 Su:1 HexA:1,0.11785
+Hex:7 HexNAc:7 dHex:3 NeuAc:3,0.01785
+Hex:3 HexNAc:4 dHex:1 Pent:3,0.01789
+Hex:10 HexNAc:6 dHex:1 Pent:1 Me:7,0.1179
+Hex:6 HexNAc:6 dHex:4,0.0179
+Hex:7 HexNAc:6 dHex:1 NeuAc:4 Ac:4,0.01791
+Hex:7 HexNAc:7 NeuAc:1 Su:3,0.01793
+Hex:5 HexNAc:3 dHex:1 NeuAc:1,0.11804
+Hex:7 HexNAc:6 dHex:1 NeuAc:1,0.11804
+Hex:5 HexNAc:4 dHex:1 NeuAc:2 Ac:2,0.01804
+Hex:6 HexNAc:5 dHex:3,0.01808
+Hex:11 HexNAc:11 dHex:2,0.11812
+Hex:7 HexNAc:6 dHex:1 NeuAc:5 Ac:1,0.01812
+Hex:5 HexNAc:4 NeuAc:1 NeuGc:2,0.01815
+Hex:5 HexNAc:4 dHex:1 NeuGc:2,0.1182
+Hex:6 HexNAc:5 NeuAc:1 Su:1,0.0182
+Hex:7 HexNAc:6 dHex:5,0.01821
+Hex:4 HexNAc:3 NeuGc:1,0.01822
+Hex:4 HexNAc:3 dHex:1 Su:1,0.01831
+Hex:4 HexNAc:2 dHex:2,0.01836
+Hex:8 HexNAc:7 dHex:1 NeuAc:4 Ac:5,0.01848
+Hex:5 HexNAc:2 Pent:1,0.01849
+Hex:4 HexNAc:1,0.01853
+Hex:5 HexNAc:4 dHex:4,0.01854
+Hex:8 HexNAc:7 dHex:1 NeuAc:3,0.11861
+Hex:4 HexNAc:6 dHex:1 NeuAc:1,0.01861
+Hex:7 HexNAc:7 dHex:1,0.01862
+Hex:9 HexNAc:6 dHex:1 NeuAc:2,0.01866
+Hex:7 HexNAc:6 dHex:4 NeuAc:1,0.0187
+Hex:9 HexNAc:2,0.01871
+Hex:4 HexNAc:4 Pent:1 Me:2,0.01872
+Hex:7 HexNAc:6 dHex:1 NeuAc:4 Ac:1,0.01873
+Hex:4 HexNAc:4 NeuAc:1,0.01876
+Hex:5 HexNAc:5 dHex:3 NeuAc:1,0.11877
+Hex:6 HexNAc:5 dHex:1 NeuAc:2 Ac:2,0.01877
+Hex:8 HexNAc:8 dHex:2,0.01878
+Hex:10 HexNAc:7,0.01879
+Hex:4 HexNAc:5 NeuAc:2,0.0188
+Hex:5 HexNAc:2,0.01881
+Hex:6 HexNAc:6 NeuAc:3,0.01885
+Hex:10 HexNAc:9 dHex:1,0.01887
+Hex:4 HexNAc:7 NeuAc:1,0.01893
+Hex:7 HexNAc:4 Pent:1 Me:4,0.11895
+Hex:4 HexNAc:6,0.01895
+Hex:4 HexNAc:6 NeuAc:2,0.01896
+Hex:7 HexNAc:11 dHex:5,0.01897
+Hex:11 HexNAc:10,0.01904
+Hex:8 HexNAc:7 dHex:1 NeuAc:2 Ac:1,0.01905
+Hex:7 HexNAc:6 NeuGc:2,0.01907
+Hex:4 HexNAc:6 dHex:1,0.01909
+Hex:5 HexNAc:5 dHex:3 NeuAc:2,0.01913
+Hex:6 HexNAc:5 dHex:1 NeuAc:1 Ac:1,0.01918
+Hex:4 HexNAc:6 NeuAc:1,0.11919
+Hex:7 HexNAc:6 dHex:1 NeuAc:3 Ac:2,0.01919
+Hex:19 HexNAc:18 dHex:1 NeuAc:1,0.01922
+Hex:6 HexNAc:4 dHex:1 NeuGc:1,0.11923
+Hex:6 HexNAc:4 dHex:2,0.01923
+Hex:4 HexNAc:5 dHex:1 Su:1 HexA:1,0.01924
+Hex:3 HexNAc:4,0.01931
+Hex:6 HexNAc:5 dHex:1 NeuAc:3 Ac:2,0.01934
+Hex:6 HexNAc:5 NeuAc:1 NeuGc:1,0.01936
+Hex:5 HexNAc:6 dHex:1 NeuAc:1,0.01937
+Hex:6 HexNAc:6 dHex:1 NeuGc:2,0.0194
+Hex:5 HexNAc:3 dHex:2 Pent:1,0.01942
+Hex:7 HexNAc:7,0.01945
+Hex:4 HexNAc:5 dHex:2 Su:1,0.11948
+Hex:9 HexNAc:8 dHex:1 NeuAc:1 Ac:1,0.01948
+Hex:8 HexNAc:7 dHex:1 NeuAc:4 Ac:1,0.01952
+Hex:7 HexNAc:6 NeuAc:2 NeuGc:1,0.01956
+Hex:5 HexNAc:7,0.01957
+Hex:9 HexNAc:8 dHex:1 NeuAc:3 Ac:1,0.01962
+Hex:8 HexNAc:7 NeuAc:4,0.01963
+Hex:5 HexNAc:4 Su:1,0.01965
+Hex:6 HexNAc:4 dHex:1,0.11971
+Hex:6 HexNAc:5 dHex:1 Su:2,0.01971
+Hex:10 HexNAc:9,0.01974
+Hex:5 HexNAc:4 dHex:3 NeuAc:2,0.11976
+Hex:6 HexNAc:5 dHex:1 NeuAc:4 Ac:2,0.01976
+Hex:7 HexNAc:7 dHex:2 NeuAc:3,0.01985
+Hex:6 HexNAc:4 dHex:1 NeuAc:1 Su:1,0.01986
+Hex:5 HexNAc:3 NeuAc:2,0.11987
+Hex:3 HexNAc:9,0.01987
+Hex:5 HexNAc:4 dHex:1 NeuAc:2,0.01992
+Hex:4 HexNAc:4 dHex:1 Pent:1,0.01995
+Hex:4 HexNAc:3 dHex:2 Pent:1,0.11998
+Hex:3 HexNAc:2 dHex:1,0.01998
+Hex:6 HexNAc:5 dHex:3 NeuAc:2,0.02
+Hex:6 HexNAc:2 Ph:1,0.02001
+Hex:7 HexNAc:6 dHex:1 NeuAc:4 Ac:3,0.02004
+Hex:5 HexNAc:4 NeuAc:2 Ac:1,0.02005
+Hex:2 HexNAc:3,0.02007
+Hex:7 HexNAc:6 dHex:1 NeuAc:2,0.02008
+Hex:3 HexNAc:4 dHex:1 Su:1,0.1201
+Hex:6 HexNAc:8 dHex:4,0.0201
+Hex:6 HexNAc:7 dHex:3 NeuAc:2,0.02013
+Hex:4 HexNAc:5 dHex:1 NeuAc:1,0.02014
+Hex:7 HexNAc:3 NeuAc:1,0.02017
+Hex:3 HexNAc:4 dHex:2,0.02021
+Hex:6 HexNAc:4,0.02031
+Hex:7 HexNAc:3,0.02033
+Hex:4 HexNAc:3 dHex:1 NeuAc:2 Su:1,0.02034
+Hex:9 HexNAc:8 dHex:1,0.12035
+Hex:3 HexNAc:6 dHex:2 NeuAc:1,0.02035
+Hex:3 HexNAc:6 dHex:1 NeuAc:2,0.0204
+Hex:5 HexNAc:4 NeuAc:2 NeuGc:1,0.02043
+Hex:5 HexNAc:4 dHex:1 NeuAc:1 NeuGc:1,0.02045
+Hex:9 HexNAc:6 dHex:1,0.02047
+Hex:7 HexNAc:6 dHex:1 NeuAc:3 Ac:4,0.0205
+Hex:8 HexNAc:7 NeuAc:1,0.02053
+Hex:7 HexNAc:6 dHex:1 NeuAc:4,0.12057
+Hex:6 HexNAc:4 NeuAc:2,0.02057
+Hex:7 HexNAc:7 dHex:3,0.02062
+Hex:4 HexNAc:4 dHex:2 NeuAc:1,0.02064
+Hex:6 HexNAc:5 dHex:1 Su:1,0.02071
+Hex:7 HexNAc:5 NeuAc:3,0.02074
+Hex:8 HexNAc:5 NeuAc:1,0.02078
+Hex:3 HexNAc:7,0.12082
+Hex:8 HexNAc:8 dHex:1,0.02082
+Hex:3 HexNAc:5 dHex:1,0.12083
+Hex:9 HexNAc:7 NeuAc:1,0.02083
+Hex:5 HexNAc:4 dHex:1 NeuGc:1,0.02084
+Hex:3 HexNAc:4 NeuAc:2,0.02085
+Hex:4 HexNAc:4 dHex:2 Pent:1,0.0209
+Hex:3 HexNAc:4 dHex:1 NeuAc:1,0.12095
+Hex:5 HexNAc:2 dHex:1 Ph:1,0.02095
+Hex:5 HexNAc:4 NeuAc:1 NeuGc:1,0.02097
+Hex:9 HexNAc:8 dHex:1 NeuAc:3,0.02102
+Hex:19 HexNAc:19,0.02103
+Hex:9 HexNAc:6 dHex:5,0.02104
+Hex:4 HexNAc:3 dHex:1 NeuAc:1,0.02106
+Hex:3 HexNAc:8 dHex:1,0.02108
+Hex:5 HexNAc:4 dHex:1 NeuAc:1,0.02109
+Hex:9 HexNAc:8 dHex:1 NeuAc:4,0.02112
+Hex:9 HexNAc:6,0.12118
+Hex:8 HexNAc:7 dHex:1 NeuAc:3 Ac:1,0.02118
+Hex:6 HexNAc:6 dHex:1 NeuAc:1,0.0212
+Hex:3 HexNAc:4 dHex:2 Pent:2,0.02121
+Hex:6 HexNAc:7 dHex:2 NeuAc:2,0.02123
+Hex:5 HexNAc:4 dHex:1 Kdn:2,0.02128
+Hex:5 HexNAc:6 dHex:1,0.02129
+Hex:5 HexNAc:4 dHex:2,0.02131
+Hex:6 HexNAc:5,0.12134
+Hex:12 HexNAc:7 NeuAc:1,0.02134
+Hex:7 HexNAc:4 NeuAc:1,0.0214
+Hex:4 HexNAc:4 dHex:2,0.02143
+Hex:7 HexNAc:6 dHex:1 Su:1 HexA:1,0.02144
+Hex:6 HexNAc:5 NeuGc:1,0.02145
+Hex:6 HexNAc:7 dHex:1 NeuAc:2 Su:1,0.12155
+Hex:8 HexNAc:5,0.02155
+Hex:7 HexNAc:7 dHex:4 NeuAc:1,0.02156
+Hex:5 HexNAc:4 dHex:1 NeuAc:2 Su:1,0.02158
+Hex:19 HexNAc:19 NeuAc:1,0.1216
+Hex:7 HexNAc:6 dHex:1 NeuAc:4 Ac:2,0.0216
+Hex:5 HexNAc:3 NeuAc:1,0.12162
+Hex:3 HexNAc:9 dHex:1,0.02162
+Hex:5 HexNAc:4 dHex:3 NeuAc:1,0.02163
+Hex:7 HexNAc:6 dHex:4,0.02168
+Hex:9 HexNAc:8,0.02171
+Hex:11 HexNAc:6,0.02174
+Hex:7 HexNAc:5 dHex:1,0.02177
+Hex:6 HexNAc:5 dHex:1 NeuAc:3 Ac:1,0.0218
+Hex:6 HexNAc:7 dHex:1,0.0219
+Hex:6 HexNAc:6 dHex:3 NeuAc:2,0.02196
+Hex:4 HexNAc:3 dHex:2 NeuAc:1 Su:1,0.02198
+Hex:9 HexNAc:6 NeuAc:1,0.022
+Hex:7 HexNAc:6 dHex:1 NeuAc:4 Ac:6,0.02201
+Hex:3 HexNAc:2,0.02202
+Hex:4 HexNAc:8,0.02205
+Hex:4 HexNAc:4 dHex:2 Su:1,0.12206
+Hex:8 HexNAc:7 dHex:2 NeuAc:3,0.02206
+Hex:6 HexNAc:4 dHex:3,0.02207
+Hex:5 HexNAc:4 dHex:1 NeuAc:3,0.02208
+Hex:10 HexNAc:1,0.02211
+Hex:10 HexNAc:10 dHex:1,0.02212
+Hex:4 HexNAc:5 dHex:1 Su:1,0.12217
+Hex:5 HexNAc:4 dHex:1 NeuAc:3 Ac:2,0.02217
+Hex:6 HexNAc:3 dHex:1,0.02224
+Hex:7 HexNAc:6 NeuAc:2,0.12226
+Hex:8 HexNAc:6 NeuAc:2,0.02226
+Hex:7 HexNAc:7 dHex:1 NeuAc:3,0.02228
+Hex:3 HexNAc:3 dHex:1,0.12231
+Hex:3 HexNAc:6 NeuAc:1,0.02231
+Hex:9 HexNAc:6 NeuAc:2,0.12234
+Hex:9 HexNAc:8 dHex:1 NeuAc:4 Ac:2,0.02234
+Hex:4 HexNAc:5 dHex:3,0.12237
+Hex:5 HexNAc:4 dHex:1 NeuAc:2 Ac:3,0.02237
+Hex:10 HexNAc:6 Pent:1 Me:7,0.02239
+Hex:6 HexNAc:3 dHex:2 NeuAc:1 Su:1,0.0224
+Hex:7 HexNAc:10 dHex:5,0.12241
+Hex:8 HexNAc:7 dHex:1 NeuAc:3 Ac:2,0.02241
+Hex:11 HexNAc:8 dHex:1 NeuAc:2,0.02246
+Hex:5 HexNAc:3 dHex:1,0.02247
+Hex:5 HexNAc:3 dHex:2,0.02249
+Hex:19 HexNAc:18 NeuAc:2,0.0225
+Hex:5 HexNAc:6 dHex:3 NeuAc:1,0.02252
+Hex:6 HexNAc:7 dHex:1 NeuAc:1,0.02256
+Hex:4 HexNAc:5 Su:1,0.02258
+Hex:7 HexNAc:2,0.0226
+Hex:6 HexNAc:4 NeuAc:1,0.02262
+Hex:6 HexNAc:5 NeuGc:3,0.02263
+Hex:6 HexNAc:5 dHex:2,0.02264
+Hex:6 HexNAc:5 dHex:1 NeuAc:3 Su:1,0.02274
+Hex:7 HexNAc:7 dHex:1 NeuAc:2,0.02277
+Hex:7 HexNAc:4 Me:4,0.02279
+Hex:8 HexNAc:7 dHex:1 NeuAc:4,0.02281
+Hex:4 HexNAc:5 dHex:1,0.12287
+Hex:7 HexNAc:7 dHex:1 NeuAc:2 Su:2,0.12287
+Hex:7 HexNAc:7 dHex:3 NeuAc:2,0.02287
+Hex:6 HexNAc:5 NeuAc:3 NeuGc:1,0.02288
+Hex:4 HexNAc:6 dHex:2,0.02291
+Hex:7 HexNAc:9 dHex:1 NeuAc:4,0.02293
+Hex:5 HexNAc:3 dHex:1 Su:1,0.02294
+Hex:5 HexNAc:5 NeuAc:1,0.02298
+Hex:7 HexNAc:6 NeuAc:3,0.02302
+Hex:7 HexNAc:1,0.02305
+Hex:2 HexNAc:4 dHex:1,0.0231
+Hex:3 HexNAc:6 dHex:1,0.02311
+Hex:7 HexNAc:6 NeuGc:1,0.02312
+Hex:3 HexNAc:4 Su:1,0.02315
+Hex:4 HexNAc:5 dHex:2 NeuAc:1,0.02322
+Hex:7 HexNAc:7 dHex:1 NeuAc:3 Su:1,0.02323
+Hex:6 HexNAc:7 dHex:1 NeuAc:4,0.12324
+Hex:5 HexNAc:3 dHex:2 NeuAc:1 Su:1,0.02324
+Hex:3 HexNAc:3 dHex:1 Pent:3,0.02325
+Hex:5 HexNAc:3 dHex:1 NeuAc:1 Su:1,0.02326
+Hex:4 HexNAc:4 dHex:1 NeuGc:1,0.02328
+Hex:5 HexNAc:5,0.1233
+Hex:8 HexNAc:6 dHex:1 NeuAc:3,0.1233
+Hex:5 HexNAc:4 dHex:1 NeuAc:1 Ac:2,0.0233
+Hex:6 HexNAc:5 NeuAc:2 Su:1,0.02331
+Hex:4 HexNAc:4,0.02334
+Hex:3 HexNAc:3 dHex:2,0.02336
+Hex:8 HexNAc:7 dHex:1 NeuAc:2 Ac:2,0.02354
+Hex:6 HexNAc:6 dHex:1 NeuAc:1 Su:2,0.12355
+Hex:5 HexNAc:6 dHex:2 NeuAc:2,0.02355
+Hex:8 HexNAc:7 dHex:3 NeuAc:4,0.02356
+Hex:7 HexNAc:5 dHex:4,0.12359
+Hex:5 HexNAc:7 dHex:2 NeuAc:2,0.02359
+Hex:5 HexNAc:7 dHex:1 NeuAc:2,0.0236
+Hex:10 HexNAc:2,0.02364
+Hex:8 HexNAc:7 dHex:1,0.12369
+Hex:10 HexNAc:6,0.12369
+Hex:6 HexNAc:4 dHex:2 NeuAc:1,0.02369
+Hex:9 HexNAc:5,0.02371
+Hex:19 HexNAc:19 NeuAc:2,0.02375
+Hex:5 HexNAc:6 dHex:2 NeuAc:3,0.0238
+Hex:6 HexNAc:5 dHex:1 NeuAc:1 Su:2,0.02381
+Hex:19 HexNAc:18 dHex:1,0.02383
+Hex:10 HexNAc:6 NeuAc:1,0.02388
+Hex:8 HexNAc:7 dHex:1 NeuAc:4 Ac:4,0.02395
+Hex:7 HexNAc:2 dHex:1,0.02396
+Hex:7 HexNAc:4 dHex:1 Pent:1 Me:4,0.02397
+Hex:5 HexNAc:4 NeuAc:2 Ac:2,0.02398
+Hex:11 HexNAc:11 dHex:1,0.024
+Hex:6 HexNAc:5 dHex:2 NeuAc:3,0.0241
+Hex:6 HexNAc:2,0.02411
+Hex:19 HexNAc:18 dHex:1 NeuAc:2,0.02413
+Hex:4 HexNAc:3 dHex:1 NeuGc:1,0.02421
+Hex:9 HexNAc:9 dHex:2,0.02422
+Hex:5 HexNAc:4 NeuAc:1,0.02424
+Hex:5 HexNAc:2 dHex:2,0.02426
+Hex:9 HexNAc:6 dHex:1 Pent:1 Me:6,0.02432
+Hex:7 HexNAc:6 dHex:1 NeuAc:5,0.02435
+Hex:6 HexNAc:5 dHex:1 Su:3,0.02443
+Hex:7 HexNAc:10 dHex:1 NeuAc:4,0.12445
+Hex:3 HexNAc:4 dHex:1 Pent:2,0.02445
+Hex:4 HexNAc:3 dHex:1,0.02448
+Hex:6 HexNAc:5 NeuAc:4,0.1245
+Hex:1 HexNAc:2 dHex:2,0.0245
+Hex:6 HexNAc:4 NeuAc:3,0.02451
+Hex:5 HexNAc:6 Pent:1 Me:2,0.02454
+Hex:9 HexNAc:1,0.02458
+Hex:6 HexNAc:4 dHex:1 NeuAc:2,0.02461
+Hex:7 HexNAc:6 dHex:1 NeuAc:2 Ac:2,0.02466
+Hex:8 HexNAc:5 dHex:1,0.02473
+Hex:7 HexNAc:5 dHex:1 NeuAc:2 Su:1,0.02476
+Hex:4 HexNAc:2 Pent:1,0.02477
+Hex:4 HexNAc:6 dHex:2 NeuAc:1,0.02481
+Hex:5 HexNAc:6 NeuAc:1,0.02484
+Hex:6 HexNAc:3 dHex:1 NeuAc:1,0.02486
+Hex:10 HexNAc:7 NeuAc:1,0.02489
+Hex:9 HexNAc:7,0.02493
+Hex:3 HexNAc:4 dHex:1,0.02494
+Hex:6 HexNAc:5 dHex:1 NeuAc:3 Ac:3,0.02501
+Hex:6 HexNAc:5 dHex:1 NeuAc:3,0.02506
+Hex:3 HexNAc:6,0.02513
+Hex:5 HexNAc:4 dHex:1 NeuAc:1 Su:1,0.12516
+Hex:5 HexNAc:5 dHex:2 NeuAc:1,0.02516
+Hex:6 HexNAc:5 NeuAc:1,0.12518
+Hex:5 HexNAc:4 Kdn:2,0.02518
+Hex:5 HexNAc:3,0.12519
+Hex:5 HexNAc:3 dHex:1 Pent:1,0.02519
+Hex:9 HexNAc:8 dHex:1 NeuAc:2,0.02525
+Hex:7 HexNAc:6 NeuAc:1 NeuGc:1,0.02529
+Hex:3 HexNAc:8,0.02533
+Hex:6 HexNAc:3,0.02543
+Hex:10 HexNAc:9 dHex:1 NeuAc:4,0.02545
+Hex:4 HexNAc:5 dHex:1 NeuAc:2,0.02547
+Hex:4 HexNAc:2 dHex:1,0.02551
+Hex:3 HexNAc:7 dHex:1 Su:1,0.02553
+Hex:5 HexNAc:4 NeuAc:1 Su:1,0.02561
+Hex:5 HexNAc:6 dHex:2 Pent:1,0.02562
+Hex:3 HexNAc:3 dHex:1 Pent:1,0.02563
+Hex:6 HexNAc:4 dHex:1 NeuAc:1,0.02565
+Hex:4 HexNAc:4 dHex:1 Pent:1 Me:1,0.02566
+Hex:5 HexNAc:4 NeuGc:1,0.02573
+Hex:4 HexNAc:4 dHex:1 Su:1,0.02575
+Hex:7 HexNAc:5 dHex:1 NeuAc:2,0.02578
+Hex:6 HexNAc:7 dHex:1 NeuAc:3,0.02584
+Hex:8 HexNAc:6 dHex:1,0.02585
+Hex:6 HexNAc:3 NeuAc:1,0.12588
+Hex:7 HexNAc:3 dHex:1 Ph:1,0.02588
+Hex:5 HexNAc:5 dHex:1 NeuGc:2,0.0259
+Hex:6 HexNAc:2 Su:1,0.02593
+Hex:6 HexNAc:5 dHex:2 NeuAc:2,0.02594
+Hex:7 HexNAc:2 Ph:2,0.02595
+Hex:11 HexNAc:10 dHex:1,0.02597
+Hex:5 HexNAc:5 dHex:1 NeuAc:2,0.02611
+Hex:9 HexNAc:8 dHex:1 NeuAc:1,0.02615
+Hex:11 HexNAc:6 dHex:5,0.02618
+Hex:13 HexNAc:2,0.0262
+Hex:3 HexNAc:6 dHex:1 Su:1,0.02621
+Hex:4 HexNAc:5 dHex:1 NeuAc:1 Su:1,0.02625
+Hex:5 HexNAc:4 dHex:2 NeuGc:2,0.02629
+Hex:6 HexNAc:6 dHex:1 Kdn:3,0.0263
+Hex:6 HexNAc:5 dHex:1 NeuAc:4 Ac:1,0.02638
+Hex:11 HexNAc:2,0.0264
+Hex:8 HexNAc:7 dHex:1 NeuAc:1 Ac:1,0.02641
+Hex:6 HexNAc:6 Kdn:3,0.02643
+Hex:3 HexNAc:3,0.02644
+Hex:7 HexNAc:6 dHex:3,0.02648
+Hex:7 HexNAc:6 dHex:1 NeuAc:1 Ac:1,0.02649
+Hex:5 HexNAc:4 NeuAc:3 Ac:2,0.02651
+Hex:14 HexNAc:2,0.02655
+Hex:6 HexNAc:6 dHex:2,0.02657
+Hex:3 HexNAc:4 dHex:3 Pent:1,0.02665
+Hex:8 HexNAc:9 dHex:1,0.02678
+Hex:5 HexNAc:5 dHex:1,0.0268
+Hex:5 HexNAc:5 dHex:3,0.12681
+Hex:7 HexNAc:6 dHex:2 NeuAc:2,0.02681
+Hex:7 HexNAc:6 NeuGc:3,0.02683
+Hex:3 HexNAc:5 NeuAc:1,0.12685
+Hex:4 HexNAc:2 dHex:1 Ph:1,0.02685
+Hex:19 HexNAc:19 dHex:1,0.02686
+Hex:19 HexNAc:19 dHex:1 NeuAc:2,0.02689
+Hex:7 HexNAc:6 dHex:1 NeuAc:2 Ac:1,0.02695
+Hex:3 HexNAc:10,0.02698
+Hex:5 HexNAc:1,0.027
+Hex:3 HexNAc:5 NeuGc:1,0.02703
+Hex:6 HexNAc:6 dHex:1,0.02705
+Hex:6 HexNAc:5 dHex:3 NeuAc:1,0.0271
+Hex:5 HexNAc:4 dHex:1,0.02712
+Hex:5 HexNAc:6 dHex:3,0.02725
+Hex:2 HexNAc:3 dHex:1,0.02732
+Hex:4 HexNAc:3 dHex:2,0.02734
+Hex:3 HexNAc:7 dHex:1,0.02736
+Hex:4 HexNAc:3 dHex:1 NeuAc:1 Su:1,0.02737
+Hex:5 HexNAc:2 dHex:1 Pent:1,0.02744
+Hex:7 HexNAc:6,0.02745
+Hex:5 HexNAc:4 dHex:2 Pent:1,0.02751
+Hex:6 HexNAc:5 NeuAc:1 NeuGc:2,0.02755
+Hex:4 HexNAc:4 dHex:1,0.02759
+Hex:6 HexNAc:5 dHex:1 NeuAc:2 Ac:1,0.02762
+Hex:5 HexNAc:2 Ph:1,0.02767
+Hex:7 HexNAc:5 dHex:1 NeuGc:2,0.02769
+Hex:3 HexNAc:4 dHex:3,0.0277
+Hex:9 HexNAc:9 dHex:1,0.02771
+Hex:6 HexNAc:7 dHex:1 NeuAc:2,0.02772
+Hex:6 HexNAc:5 dHex:4,0.12776
+Hex:5 HexNAc:5 dHex:2 NeuAc:3,0.02776
+Hex:4 HexNAc:4 dHex:1 NeuAc:1 Su:1,0.02777
+Hex:5 HexNAc:5 dHex:2,0.02781
+Hex:5 HexNAc:5 dHex:1 NeuGc:1,0.12785
+Hex:4 HexNAc:6 dHex:1 NeuAc:1 Su:1,0.02785
+Hex:6 HexNAc:7,0.02799
+Hex:8 HexNAc:6 dHex:1 NeuAc:1,0.02807
+Hex:11 HexNAc:6 dHex:1,0.02809
+Hex:7 HexNAc:2 Ph:1,0.0281
+Hex:6 HexNAc:3 Ph:1,0.12814
+Hex:7 HexNAc:6 NeuAc:3 NeuGc:1,0.02814
+Hex:8 HexNAc:7 dHex:1 NeuAc:3 NeuGc:1,0.02823
+Hex:8 HexNAc:7 dHex:1 NeuAc:1,0.02825
+Hex:4 HexNAc:3 Pent:1,0.12834
+Hex:3 HexNAc:5 Su:1,0.02834
+Hex:5 HexNAc:4 dHex:1 NeuAc:3 Ac:1,0.02838
+Hex:3 HexNAc:5 dHex:1 Su:1,0.02839
+Hex:4 HexNAc:4 dHex:3 Pent:1,0.02841
+Hex:5 HexNAc:5 dHex:2 NeuAc:2,0.02846
+Hex:8 HexNAc:2,0.02847
+Hex:6 HexNAc:6 dHex:3 NeuAc:3,0.02854
+Hex:6 HexNAc:4 dHex:3 NeuAc:1,0.0286
+Hex:6 HexNAc:7 dHex:3 NeuAc:1,0.02875
+Hex:6 HexNAc:4 dHex:1 Pent:1 Me:3,0.02883
+Hex:6 HexNAc:5 dHex:2 NeuAc:1,0.02893
+Hex:11 HexNAc:7,0.02897
+Hex:6 HexNAc:9 dHex:3,0.02898
+Hex:7 HexNAc:6 dHex:1 NeuAc:3,0.12906
+Hex:4 HexNAc:5 NeuAc:1,0.02906
+Hex:6 HexNAc:5 dHex:1 NeuAc:1 Ac:2,0.0291
+Hex:10 HexNAc:6 dHex:5,0.02927
+Hex:6 HexNAc:5 dHex:1 NeuAc:2 Su:1,0.02955
+Hex:5 HexNAc:3 dHex:1 NeuGc:1 Su:1,0.02957
+Hex:6 HexNAc:5 Su:2,0.12968
+Hex:7 HexNAc:7 dHex:3 NeuAc:1,0.02968
+Hex:9 HexNAc:7 dHex:1,0.02986
+Hex:3 HexNAc:6 dHex:1 Su:2,0.02995
+Hex:8 HexNAc:7 dHex:1 NeuAc:2,0.02997
+Hex:4 HexNAc:3 NeuAc:1,0.02999
+Hex:5 HexNAc:4,0.13002
+Hex:5 HexNAc:4 NeuAc:2 Ac:3,0.03002
+Hex:7 HexNAc:5 NeuAc:1,0.03023
+Hex:7 HexNAc:4 dHex:3,0.13034
+Hex:4 HexNAc:5 dHex:2,0.03034
+Hex:7 HexNAc:6 dHex:1 NeuAc:2 Su:2,0.03038
+Hex:5 HexNAc:4 NeuGc:2,0.03049
+Hex:7 HexNAc:6 dHex:1 NeuAc:3 NeuGc:1,0.03052
+Hex:5 HexNAc:3 dHex:1 NeuAc:1 NeuGc:1 Su:1,0.03079
+Hex:5 HexNAc:4 dHex:3,0.03121
+Hex:3 HexNAc:6 dHex:1 NeuAc:1,0.03124
+Hex:6 HexNAc:6 dHex:3,0.03132
+Hex:5 HexNAc:5 Kdn:2,0.0315
