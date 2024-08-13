@@ -140,28 +140,28 @@ Nglycan_Fisher<-function(query, universe){
 
   o<-NGlycan_ontologies(universe)
   o_query<-o[o$Nglycan_name %in% query,]
-  unique_o<- unique(o_query[,2])
+  unique_terms<- unique(o_query[,2])
 
   #create the Contingencies matrix
   contingency_list<-list()
-  for (i in 1:length(unique_o)){
+  for (i in 1:length(unique_terms)){
     contingency_list[[i]]<-matrix(ncol=2,nrow=2)
-    contingency_list[[i]][1,1]<- sum(o_query[,2]==unique_o[i])
-    contingency_list[[i]][1,2]<- sum(o[,2]==unique_o[i])
+    contingency_list[[i]][1,1]<- sum(o_query[,2]==unique_terms[i])
+    contingency_list[[i]][1,2]<- sum(o[,2]==unique_terms[i])
     contingency_list[[i]][2,1]<- length(query)-contingency_list[[i]][1,1]
     contingency_list[[i]][2,2]<- length(universe)-contingency_list[[i]][1,2]
   }
-  names(contingency_list)<-unique_o
+  names(contingency_list)<-unique_terms
 
   #create Final table
-  fisher_results<-data.frame(matrix(NA, nrow=length(unique_o), ncol=12))
+  fisher_results<-data.frame(matrix(NA, nrow=length(unique_terms), ncol=12))
   colnames(fisher_results)<- c("Term_description","Count_query","Pop_query","Count_universe","Pop_universe","%_query","%_universe","Test_p","Test_padj","fold_change","Nglycan_in_query","-log10(p)")
-  fisher_results$Term_description<-unique_o
+  fisher_results$Term_description<-unique_terms
   fisher_results$Pop_query<-length(query)
   fisher_results$Pop_universe<-length(universe)
 
   #run the test and populate the table
-  for (i in 1:length(unique_o)){
+  for (i in 1:length(unique_terms)){
     test<-fisher.test(contingency_list[[i]])
     fisher_results$Test_p [i]<-test$p.value
     fisher_results$Count_query[i]<-contingency_list[[i]][1,1]
@@ -218,28 +218,28 @@ Nglycan_EASE<-function(query, universe){
 
   o<-NGlycan_ontologies(universe)
   o_query<-o[o$Nglycan_name %in% query,]
-  unique_o<- unique(o_query[,2])
+  unique_terms<- unique(o_query[,2])
 
   #create the Contingencies matrix
   contingency_list<-list()
-  for (i in 1:length(unique_o)){
+  for (i in 1:length(unique_terms)){
     contingency_list[[i]]<-matrix(ncol=2,nrow=2)
-    contingency_list[[i]][1,1]<- sum(o_query[,2]==unique_o[i])-1
-    contingency_list[[i]][1,2]<- sum(o[,2]==unique_o[i])
+    contingency_list[[i]][1,1]<- sum(o_query[,2]==unique_terms[i])-1
+    contingency_list[[i]][1,2]<- sum(o[,2]==unique_terms[i])
     contingency_list[[i]][2,1]<- length(query)-contingency_list[[i]][1,1]
     contingency_list[[i]][2,2]<- length(universe)-contingency_list[[i]][1,2]
   }
-  names(contingency_list)<-unique_o
+  names(contingency_list)<-unique_terms
 
   #create Final table
-  EASE_results<-data.frame(matrix(NA, nrow=length(unique_o), ncol=12))
+  EASE_results<-data.frame(matrix(NA, nrow=length(unique_terms), ncol=12))
   colnames(EASE_results)<- c("Term_description","Count_query","Pop_query","Count_universe","Pop_universe","%_query","%_universe","Test_p","Test_padj","fold_change","Nglycan_in_query","-log10(p)")
-  EASE_results$Term_description<-unique_o
+  EASE_results$Term_description<-unique_terms
   EASE_results$Pop_query<-length(query)
   EASE_results$Pop_universe<-length(universe)
 
   #run the test and populate the table
-  for (i in 1:length(unique_o)){
+  for (i in 1:length(unique_terms)){
     test<-fisher.test(contingency_list[[i]])
     EASE_results$Test_p [i]<-test$p.value
     EASE_results$Count_query[i]<-contingency_list[[i]][1,1]
@@ -304,15 +304,15 @@ for (i in 1:length(unique_terms))
   }
 
 
-hyper_results<-data.frame(matrix(NA, nrow=length(unique_o), ncol=12))
+hyper_results<-data.frame(matrix(NA, nrow=length(unique_terms), ncol=12))
 colnames(hyper_results)<- c("Term_description","Count_query","Pop_query","Count_universe","Pop_universe","%_query","%_universe","Test_p","Test_padj","fold_change","Nglycan_in_query","-log10(p)")
 
-hyper_results$Term_description <- unique_o
+hyper_results$Term_description <- unique_terms
 
 hyper_results$Pop_query<- length(query)
 hyper_results$Pop_universe<- length(universe)
 
-for (i in 1:length(unique_o))
+for (i in 1:length(unique_terms))
 {
   test<- min(1-cumsum(dhyper(0:(contingency.matrix[[i]][1,1]-1),contingency.matrix[[i]][1,2],contingency.matrix[[i]][2,2],contingency.matrix[[i]][2,1])))
   hyper_results$Test_p[i]<-test
@@ -321,7 +321,7 @@ for (i in 1:length(unique_o))
   hyper_results$`%_query`[i]<- contingency.matrix[[i]][1,1]/length(query)*100
   hyper_results$`%_universe`[i]<- contingency.matrix[[i]][1,2]/length(universe)*100
   hyper_results$fold_change [i]<- hyper_results$`%_query`[i]/hyper_results$`%_universe`[i]
-  hyper_results$Nglycan_in_query[i]<-paste(o_query$Nglycan_name[o_query$Ontology_term==unique_o[i]],collapse=";")
+  hyper_results$Nglycan_in_query[i]<-paste(o_query$Nglycan_name[o_query$Ontology_term==unique_terms[i]],collapse=";")
 }
 hyper_results$Test_padj<-p.adjust(hyper_results$Test_p,method = "BH",n = nrow(hyper_results))
 hyper_results$`-log10(p)`<- (-1*log(hyper_results$Test_p,10))
@@ -375,15 +375,15 @@ Nglycan_binomial<-function(query, universe){
     names(contingency.matrix)[i]<-unique_terms[i]
   }
 
-  binomial_results<-data.frame(matrix(NA, nrow=length(unique_o), ncol=12))
+  binomial_results<-data.frame(matrix(NA, nrow=length(unique_terms), ncol=12))
   colnames(binomial_results)<- c("Term_description","Count_query","Pop_query","Count_universe","Pop_universe","%_query","%_universe","Test_p","Test_padj","fold_change","Nglycan_in_query","-log10(p)")
 
-  binomial_results$Term_description <- unique_o
+  binomial_results$Term_description <- unique_terms
 
   binomial_results$Pop_query<- length(query)
   binomial_results$Pop_universe<- length(universe)
 
-  for (i in 1:length(unique_o)){
+  for (i in 1:length(unique_terms)){
     test<-binom.test(contingency.matrix[[i]][1,1],length(query),p = contingency.matrix[[i]][1,2]/length(universe))
     binomial_results$Test_p[i]<-test$p.value
     binomial_results$`%_query`[i]<- contingency.matrix[[i]][1,1]/length(query)*100
@@ -393,7 +393,7 @@ Nglycan_binomial<-function(query, universe){
     binomial_results$`%_query`[i]<- contingency.matrix[[i]][1,1]/length(query)*100
     binomial_results$`%_universe`[i]<- contingency.matrix[[i]][1,2]/length(universe)*100
     binomial_results$fold_change [i]<- binomial_results$`%_query`[i]/binomial_results$`%_universe`[i]
-    binomial_results$Nglycan_in_query[i]<-paste(o_query$Nglycan_name[o_query$Ontology_term==unique_o[i]],collapse=";")
+    binomial_results$Nglycan_in_query[i]<-paste(o_query$Nglycan_name[o_query$Ontology_term==unique_terms[i]],collapse=";")
   }
   binomial_results$Test_padj<-p.adjust(binomial_results$Test_p,method = "BH",n = nrow(binomial_results))
   binomial_results$`-log10(p)`<- (-1*log(binomial_results$Test_p,10))
@@ -440,26 +440,26 @@ Nglycan_KS<-function(rankingTable, order= "ascending"){
 
   rankingTable$Rank<-1:nrow(rankingTable)
   o<-NGlycan_ontologies(rankingTable$IDs)
-  unique_o<- o[!duplicated(o[,2]),2]
+  unique_terms<- o[!duplicated(o[,2]),2]
 
   RT_by_o<-list()
   IDs_by_o<-list()
-  for (i in 1:length(unique_o)){
-    IDs_by_o[[i]]<-o$Nglycan_name[o$Ontology_term==unique_o[i]]
+  for (i in 1:length(unique_terms)){
+    IDs_by_o[[i]]<-o$Nglycan_name[o$Ontology_term==unique_terms[i]]
     RT_by_o[[i]]<-rankingTable$Rank[rankingTable$IDs %in% IDs_by_o[[i]]]
     IDs_by_o[[i]]<-paste(IDs_by_o[[i]],collapse = ";")
   }
-  names(RT_by_o)=names(IDs_by_o)=unique_o
+  names(RT_by_o)=names(IDs_by_o)=unique_terms
 
   p<-numeric()
-  for (i in 1:length(unique_o)){
+  for (i in 1:length(unique_terms)){
       p[i]<-ks.test(RT_by_o[[i]],rankingTable$Rank,alternative="greater")$p.value
   }
-  names(p)<-unique_o
+  names(p)<-unique_terms
 
-  final_table<-data.frame(matrix(ncol=5,nrow= length(unique_o)))
+  final_table<-data.frame(matrix(ncol=5,nrow= length(unique_terms)))
   colnames(final_table) <- c("Ontology_term", "Test_p", "Test_padj","Number_in_list", "IDs_in_list")
-  final_table$Ontology_term<-unique_o
+  final_table$Ontology_term<-unique_terms
   final_table$Test_p<-p
   final_table$Test_padj<-p.adjust(p,method = "BH")
   final_table$IDs_in_list<- unlist(IDs_by_o)
