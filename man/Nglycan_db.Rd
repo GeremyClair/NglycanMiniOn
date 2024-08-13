@@ -3,7 +3,8 @@
 \docType{data}
 \name{Nglycan_db}
 \alias{Nglycan_db}
-\title{Nglycan_db}
+\title{Nglycan_db
+This character vector contains the list of all the Nglycans currently present in Metaspace (as of 07/12/24).}
 \format{
 A character
 }
@@ -11,6 +12,7 @@ A character
 Nglycan_db
 }
 \description{
+Nglycan_db
 This character vector contains the list of all the Nglycans currently present in Metaspace (as of 07/12/24).
 }
 \keyword{datasets}

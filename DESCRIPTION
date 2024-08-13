@@ -10,4 +10,4 @@ LazyData: true
 Encoding: UTF-8
 Depends: ggplot2
 NeedsCompilation: no
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
