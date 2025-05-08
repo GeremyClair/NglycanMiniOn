@@ -12,8 +12,8 @@
 #' @export
 NGlycan_miner<-function(X){
   if (!is.character(X)){stop("The imput of the function NGlycan_miner has to be a character vector")}
-  t<-data.frame(matrix(nrow = length(X), ncol=27))
-  colnames(t)<-c("ID","Hex", "HexNAc", "dHex", "NeuAc","NeuGc","HexA","Su","Ph","Kdn","Me","Ac","Pent","Complex_without_epitope","Polylactosamine","Tetraantenary","Bisecting", "Scialic","Fucosylated","Monofucosylated", "Multifucosylated","Pauci-mannose","Hybrid","High-mannose","Plant","Non-Human","Ambigous_bisecting_or_tetraantenary")
+  t<-data.frame(matrix(nrow = length(X), ncol=28))
+  colnames(t)<-c("ID","Hex", "HexNAc", "dHex", "NeuAc","NeuGc","HexA","Su","Ph","Kdn","Me","Ac","Pent","Complex_without_epitope","Polylactosamine","Tetraantenary","Bisecting", "Scialic","Fucosylated","Monofucosylated", "Multifucosylated","Pauci-mannose","Hybrid","High-mannose","Galactose_containing","Plant","Non-Human","Ambigous_bisecting_or_tetraantenary")
   t$ID<-X
 
   extract_comp_count<-function(name,comp){
@@ -55,6 +55,9 @@ NGlycan_miner<-function(X){
   #high mannose rule: Hex>3 and HexNAc=(1 or 2) and dHex≥0 and all others =0
   t$`High-mannose`<- (!is.na(t$HexNAc)&!is.na(t$Hex) & t$Hex>3 & (t$HexNAc==1| t$HexNAc==2)) &
     (is.na(t$NeuAc) & is.na(t$NeuGc) & is.na(t$HexA) & is.na(t$Su) & is.na(t$Ph) & is.na(t$Kdn) & is.na(t$Me) & is.na (t$Ac) & is.na(t$Pent))
+  #Galactose containing
+  t$Galactose_containing<-t$Hex>3&t$`High-mannose`==FALSE
+
   #Plant rule: Pent>0
   t$Plant <- !is.na(t$Pent) & t$Pent>0
   #Non-Mammal rule: NeuGc>0
