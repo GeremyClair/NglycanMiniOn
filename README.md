@@ -11,7 +11,7 @@ When devtools is installed, run the following command to install RomicsProcessor
 Alternately, download the [built package]([https://pages.github.com/](https://github.com/GeremyClair/NglycanMiniOn/blob/main/NGlycanMiniOn_0.1.0.tar.gz) and install the package manually.
 
 ## Contacts
-Written by Geremy Clair for the Department of Energy (PNNL, Richland, WA) \
+Written by Geremy Clair and Harsh Bhotika for the Department of Energy (PNNL, Richland, WA) \
 E-mail: geremy.clair@pnnl.gov or proteomics@pnnl.gov \
 Website: https://www.pnnl.gov/integrative-omics or https://panomics.pnnl.gov/
 
